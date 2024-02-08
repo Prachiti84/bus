@@ -1,0 +1,214 @@
+
+header{
+    background-color: black;
+    height: 95%;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 88%, 0 100%);
+    
+}
+
+body{
+    font-family: 'poppins',sans-serif;
+}
+*{
+    
+    box-sizing: border-box;
+    -webkit-font-smotthing: antialiased;
+}
+.container{
+    max-width: 1152px;
+    padding: 0 15px;
+    margin: 0 auto;
+ }
+
+ header nav .left a{
+     color: white;
+     text-decoration: none;
+     margin-right: 2rem;
+     text-transform: uppercase;
+     transition:all .3s ease;
+ }
+
+ header nav .left a:hover{
+     color:darkturquoise;
+     font-size: 130%;
+ }
+
+ .flex{
+    display: flex;
+ }
+ .items-center{
+     align-items: center;
+ 
+ }
+ 
+ .justify-content{
+    justify-content: space-between;
+ }
+ header nav{
+     padding: 2rem 0;
+ }
+
+ header nav .branding{
+     margin-right: 4rem;
+ }
+
+ .btn{
+     padding:0.8rem 3rem;
+     font-size: 1rem;
+     font-weight: 550;
+     border: 3px solid transparant;
+     outline: none;
+     cursor: pointer;
+     text-transform: uppercase;
+     transition:all .3s ease;
+ }
+
+ .btn-primary{
+     background-color:lightgreen;
+     color: black ;
+ }
+ .btn-primary:hover{
+     background: transparent;
+     border-color:lightgreen; ;
+     color: lightgreen;;
+    
+ }
+
+ .front .left img{
+ height:21rem;
+ width: 90%;
+margin-top: 8%;
+margin-left: 6rem;
+
+    }
+ .front .right{
+     color:white;
+     margin-top: 10rem;
+     margin-left: 7%;   
+ }
+ 
+ .front .right h6{
+     font-size: 2rem;
+     margin-bottom: 1% ;
+     position: relative;
+     font-weight: 300;
+     color:rgb(4, 250, 250);
+     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     
+ }
+ .front .right h1{
+     font-size: 4rem;
+     font-weight:400;
+     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     line-height: 1;
+     margin-top: auto;
+    
+
+ }
+ .front .right h1 span{
+     color:rgb(4, 250, 250);
+ }
+ .front .right p{
+     line-height:2;
+     margin-bottom:1rem ; 
+     font-size: 20 ;
+ }
+ .btn-secondary{
+     background: transparent;
+     color:lightgreen;
+     border-color:lightgreen;
+     margin-bottom: 1%;
+     position: absolute;
+ }
+
+ .btn-secondary:hover{
+    background:lightgreen;
+    color: black;
+ }
+ .justify-between{
+     justify-content: space-between;
+ }
+  .flex-1{
+    flex: 2;
+  } 
+  
+  .justify-center{
+      justify-content: center;
+  }
+  .front .right{
+      margin-top: -7rem;
+  }
+
+  section{
+    padding: 20rem 0; 
+  }
+ .about .container1{
+       position: absolute;
+       right: 250px;
+       top: 120%;
+   }
+   .about .container2{
+       color:black;
+       position: absolute;
+       top: 100%;
+       right: 700px;
+       font-size: 300%;
+       font-weight: 100;
+       font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+   }
+   .about .container3{
+       position: absolute;
+       top: 120%;
+       right: 900px;
+   }
+   .about .container4{
+       position: absolute;
+       height: auto;
+       width: 30%;
+       text-align:justify;
+       top:130%;
+       right: 800px;
+       text-indent: 10%;
+       
+   }
+   .about .container5{
+     color: black;
+      position: absolute;
+      top: 160%;
+      left: 620px;
+      border-radius: 10%;
+      padding: 0.5rem;
+      justify-content: space-between;
+      margin-right: 0.6rem;
+     
+   }
+   .about .container5:hover{
+       background-color:mediumturquoise;
+   }
+   section{
+    padding: 18rem 0;
+}
+   .section-heading{
+      color: black; 
+      margin-bottom: 1rem;
+      line-height: 0.5;
+     position: absolute;
+      top: 185%;
+      left: 45%;
+   } 
+   .section-heading span{
+       color: chartreuse;
+   }
+   .section-heading + p{
+       color: black;
+       font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       margin-bottom: 1rem;
+       text-align: center;
+       position: absolute;
+       top: 190%;
+       left: 39%;
+   }
+
+
+  
